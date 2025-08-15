@@ -1,6 +1,4 @@
-'use strict';
-
-let colores = {
+export const  colores = {
     udpNegro: "#1C1C1C",
     udpCrema: "#E7E4D8",
     udpAmarillo: "#FFF800",
@@ -13,5 +11,3 @@ let colores = {
     faadClaroAzul: "#99b0c9"
     
 };
-
-module.exports = Object.freeze(colores);
