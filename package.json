@@ -1,6 +1,6 @@
 {
   "name": "@disenoudp/faaad-colores",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "colores para uso de faad udp",
   "homepage": "https://github.com/disenoUDP/faad-colores#readme",
   "bugs": {
@@ -12,11 +12,15 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "module",
+  
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+    "files": [
+    "index.js"
+  ],
+  "type": "module",
   "exports": {
     ".": "./index.js"
   }
