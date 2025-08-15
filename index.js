@@ -1,23 +1,17 @@
-const udpNegro = "#1C1C1C";
-const udpCrema = "#E7E4D8";
-const udpAmarillo = "#FFF800";
-const udpFaaad = "#FF6C53";
-const faadOscuroRojo = "#D12E1C";
-const faadOscuroVerde = "#3B7359";
-const faadOscuroAzul = "#335C96";
-const faadClaroVerde = "#91DBA6";
-const faadClaroAmarillo = "#EDD121";
-const faadClaroAzul = "#99b0c9";
+'use strict';
 
-export default {
-    udpNegro,
-    udpCrema,
-    udpAmarillo,
-    udpFaaad,
-    faadOscuroRojo,
-    faadOscuroVerde,
-    faadOscuroAzul,
-    faadClaroVerde,
-    faadClaroAmarillo,
-    faadClaroAzul
+let colores = {
+    udpNegro: "#1C1C1C",
+    udpCrema: "#E7E4D8",
+    udpAmarillo: "#FFF800",
+    udpFaaad: "#FF6C53",
+    faadOscuroRojo: "#D12E1C",
+    faadOscuroVerde: "#3B7359",
+    faadOscuroAzul: "#335C96",
+    faadClaroVerde: "#91DBA6",
+    faadClaroAmarillo: "#EDD121",
+    faadClaroAzul: "#99b0c9"
+    
 };
+
+module.exports = Object.freeze(colores);
