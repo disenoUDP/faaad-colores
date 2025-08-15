@@ -9,3 +9,15 @@ const faadClaroVerde = "#91DBA6";
 const faadClaroAmarillo = "#EDD121";
 const faadClaroAzul = "#99b0c9";
 
+export default {
+    udpNegro,
+    udpCrema,
+    udpAmarillo,
+    udpFaaad,
+    faadOscuroRojo,
+    faadOscuroVerde,
+    faadOscuroAzul,
+    faadClaroVerde,
+    faadClaroAmarillo,
+    faadClaroAzul
+};
